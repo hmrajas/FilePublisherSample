@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventPublisher name="File" statistics="disable" trace="disable" xmlns="http://wso2.org/carbon/eventpublisher">
+  <from streamName="org.wso2.event.sensor.stream" version="1.0.0"/>
+  <mapping customMapping="disable" type="json"/>
+  <to eventAdapterType="File">
+    <property name="buffersize">1024</property>
+    <property name="filename">/home/rajjaz/Documents/CEP/wso2cep-4.1.0/samples/artifacts/0017/fileWriter1.txt</property>
+  </to>
+</eventPublisher>
