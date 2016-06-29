@@ -1,6 +1,6 @@
 This sample uses 
 EventReceiver:  Text/File with custom mapping
-EventPublisher: logger
+EventPublisher: file
 
 Producers:     -
 Consumers:     -
